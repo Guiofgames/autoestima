@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #B67CD0;
+    padding: 40px;
+}
+
+.logo {
+    display: block;
+    height: 115px;
+    width: 616.94px;
+}
+.icon{
+    display: flex;
+    height: 117px;
+    width: 117px;
+    padding-right: 20px;
+}
+.nav-links {
+    color: #f50000;
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 120px;
+    font-size: 30px;
+}
+
+.nav-links a:hover {
+    text-decoration: none;
+    color: #7B0DBA;
+}
+
+.icons-login {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    background-color: #ffffff;
+    color: #00a800;
+    border: 1;
+    border-radius: 10px; 
+    border-color: #00a800;
+    padding: 15px 30px; 
+    cursor: pointer; 
+    transition: .3s ease-in-out; 
+    margin-right: 25px;
+}
+
+.login-button:hover {
+    background-color: #005f00; 
+    color: white;
+}
+.image img{
+    width: 651px;
+    height: 494px;
+    margin-right: 150px;
+}
+.Fastfood{
+    font-size: 22px;
+    color: #909090;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.bntOrder{
+    background-color: #00a800;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 175px;
+    height: 55px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer; 
+    transition: .3s ease-in-out; 
+}
+.bntOrder2{
+    background-color: #ffffff;
+    color: #00a800;
+    border: 1;
+    border-radius: 10px; 
+    border-color: #00a800;
+    padding: 15px 30px; 
+    cursor: pointer; 
+    transition: .3s ease-in-out; 
+    width: 200px;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: medium;
+}
+.home1{
+    display: flex;
+    margin-top: 105px;
+    margin-left: 70px;
+    justify-content:space-between;
+}
+.titulo2{
+    margin-top: 200px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    line-height: 0.1;
+}
+.text{
+    font-size: 50px;
+}
+.text2{
+    color: #909090;
+}
